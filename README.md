@@ -48,7 +48,7 @@ You can check you result in ./inference/output.
 
 ##  performance analysis 
 
-![](\weights\MaskWearing_results.png)
+![](https://github.com/ZhuJD-China/Mask_Wearing_best/raw/master/weights/MaskWearing_results.png)
 
 ![](weights\MaskWearing_labels.png)
 
