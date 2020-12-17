@@ -56,7 +56,7 @@ You can check you result in ./inference/output.
 
 ![](https://github.com/ZhuJD-China/Mask_Wearing_best/raw/master/weights/MaskWearing_test_batch0_gt.jpg)
 
-## Model visualization
+## Detection visualization
 
 ![MaskWearing_best](https://github.com/ZhuJD-China/Mask_Wearing_best/raw/master/weights/Test.png)
 
