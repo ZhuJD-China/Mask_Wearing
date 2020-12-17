@@ -18,7 +18,9 @@ YOLOv5 may be run in any of the following up-to-date verified environments (with
 
 ## Dataset From
 
-https://www.kaggle.com/andrewmvd/face-mask-detection
+https://www.kaggle.com/jiadongzhu/facemask-yolov5-pytorch
+
+-------2547 2Dbox-images
 
 #### I've trained a lightweight model -> ./weights/MaskWearing_best.pt
 
@@ -50,15 +52,17 @@ You can check you result in ./inference/output.
 
 ![](https://github.com/ZhuJD-China/Mask_Wearing_best/raw/master/weights/MaskWearing_results.png)
 
-![](https://github.com/ZhuJD-China/Mask_Wearing_best/raw/master/weights/MaskWearing_labels.png)
-
 ## Inferencing Result
 
 ![](https://github.com/ZhuJD-China/Mask_Wearing_best/raw/master/weights/MaskWearing_test_batch0_gt.jpg)
 
 ## Model visualization
 
-![MaskWearing_best](https://github.com/ZhuJD-China/Mask_Wearing_best/raw/master/weights/MaskWearing_best.png)
+![MaskWearing_best](https://github.com/ZhuJD-China/Mask_Wearing_best/raw/master/weights/Test.png)
+
+
+
+
 
 ```bash
 Namespace(adam=False, batch_size=16, bucket='', cache_images=True, cfg='./models/custom_yolov5s.yaml', data='../data.yaml', device='', epochs=200, evolve=False, global_rank=-1, hyp='data/hyp.scratch.yaml', image_weights=False, img_size=[416, 416], local_rank=-1, logdir='runs/', multi_scale=False, name='yolov5s_results', noautoanchor=False, nosave=False, notest=False, rect=False, resume=False, single_cls=False, sync_bn=False, total_batch_size=16, weights='', workers=8, world_size=1)
